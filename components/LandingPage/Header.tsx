@@ -16,7 +16,7 @@ export const Header = () => {
                 <span className='sr-only'>DUOS</span>
                 <img
                   className='h-8 w-auto sm:h-10'
-                  src='./DUOS-Logo-Color.svg'
+                  src='./images/logo/DUOS-Logo-Color.svg'
                   alt=''
                 />
               </a>
