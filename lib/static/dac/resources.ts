@@ -7,7 +7,7 @@ export const resources = [
     datetime: '2022-02-22',
     category: { name: 'Case Study', href: '#' },
     imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+      'https://images.unsplash.com/photo-1624957485560-47747511b32f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
     preview:
       'The National Institutes of Health (NIH) Data Access Committees (DACs) play an important role. Growing demand for controlled-access datasets has spurred the development of new semi-automated systems. NIH DACs will retain oversight while enabling efficient reviews and approvals of data requests.',
     author: {
@@ -26,7 +26,7 @@ export const resources = [
     datetime: '2021-11-10',
     category: { name: 'Research', href: '#' },
     imageUrl:
-      'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+      'https://images.unsplash.com/photo-1573646609328-01f50a125c0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
     preview:
       "The current paradigm for data use oversight of biomedical datasets is onerous. An open-source software platform, the Data Use Oversight System (DUOS), could streamline this process. DUOS' automated data access adjudication in all cases agreed with the manual review.",
     author: {
