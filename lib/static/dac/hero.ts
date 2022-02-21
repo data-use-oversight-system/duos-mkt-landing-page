@@ -5,9 +5,10 @@ export const hero = {
     'DUOS is a quick and easy way for researchers to make their data publicly available without setting up your own DAC!',
   input: {
     placeholder: 'Your email',
-    subTitle: "We'll reach out to walk you through the next steps shortly!",
   },
   button: {
     text: 'Request Demo',
   },
+  submissionSuccessText: "Success! We'll reach out to walk you through the next steps shortly!",
+  submissionFailText: "Failed to submit e-mail. Please contact duos-eng@broadinstitute.org.",
 };

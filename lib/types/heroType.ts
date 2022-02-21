@@ -8,9 +8,10 @@ export type HeroType = {
   description: string;
   input: {
     placeholder: string;
-    subTitle?: string;
   };
   button: {
     text: string;
   };
+  submissionSuccessText?: string;
+  submissionFailText?: string;
 };
