@@ -1,11 +1,10 @@
-import React from "react";
+import React from 'react';
 
 export default interface Button {
-    button: ButtonType
+  button: ButtonType;
 }
-
 
 export type ButtonType = {
-    children: string | React.ReactNode
-    onClick: () => void
-}
+  children: string | React.ReactNode;
+  onClick: () => void;
+};

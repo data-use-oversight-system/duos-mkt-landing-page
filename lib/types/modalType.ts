@@ -1,10 +1,9 @@
 export default interface Modal {
-    modal: ModalType
+  modal: ModalType;
 }
-
 
 export type ModalType = {
-    title?: String
-    message: string
-    button: string | JSX.Element
-}
+  title?: String;
+  message: string;
+  button: string | JSX.Element;
+};

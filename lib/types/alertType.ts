@@ -1,10 +1,10 @@
-import { AlertEnum } from "../enum/AlertEnum";
+import { AlertEnum } from '../enum/AlertEnum';
 
 export default interface Alert {
-    alert: AlertType
+  alert: AlertType;
 }
 
 export type AlertType = {
-    alertType: AlertEnum
-    message: string
-}
+  alertType: AlertEnum;
+  message: string;
+};

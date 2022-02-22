@@ -21,7 +21,7 @@ export const Hero: React.FC<Hero> = ({ hero }) => {
         }
       })
       .catch((error) => {
-        console.log(error)
+        console.log(error);
         setIsSuccess(false);
       })
       .finally(() => {
@@ -50,38 +50,35 @@ export const Hero: React.FC<Hero> = ({ hero }) => {
                   {hero.description}
                 </p>
                 <div className='mt-10 sm:mt-12'>
-                  {!isSubmitted
-                    ? (
-                      <form
-                        action='#'
-                        className='sm:mx-auto sm:max-w-xl lg:mx-0'
-                        onSubmit={registerUser}
-                      >
-                        <div className='sm:flex'>
-                          <Input 
-                            id="email"
-                            label='Email'
-                            type='email'
-                            placeholder='Email'
-                            value={email}
-                            required={true}
-                            minLength={4}
-                            onChange={handleEmailChange}
-                          />
-                          <div className='mt-3 sm:mt-0 sm:ml-3'>
-                            <Button formType='submit' buttonType='primary'>
-                              {hero.button.text}
-                            </Button>
-                          </div>
+                  {!isSubmitted ? (
+                    <form
+                      action='#'
+                      className='sm:mx-auto sm:max-w-xl lg:mx-0'
+                      onSubmit={registerUser}
+                    >
+                      <div className='sm:flex'>
+                        <Input
+                          id='email'
+                          label='Email'
+                          type='email'
+                          placeholder='Email'
+                          value={email}
+                          required={true}
+                          minLength={4}
+                          onChange={handleEmailChange}
+                        />
+                        <div className='mt-3 sm:mt-0 sm:ml-3'>
+                          <Button formType='submit' buttonType='primary'>
+                            {hero.button.text}
+                          </Button>
                         </div>
-                      </form>
-                    )
-                    : isSuccess ? (
-                      <SubmitSuccess text={hero.submissionSuccessText} />
-                    ) : (
-                      <SubmitFailure text={hero.submissionFailText} />
-                    )
-                  }
+                      </div>
+                    </form>
+                  ) : isSuccess ? (
+                    <SubmitSuccess text={hero.submissionSuccessText} />
+                  ) : (
+                    <SubmitFailure text={hero.submissionFailText} />
+                  )}
                 </div>
               </div>
             </div>

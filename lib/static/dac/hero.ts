@@ -9,6 +9,8 @@ export const hero = {
   button: {
     text: 'Request Demo',
   },
-  submissionSuccessText: "Success! We'll reach out to walk you through the next steps shortly!",
-  submissionFailText: "Failed to submit e-mail. Please contact duos-eng@broadinstitute.org.",
+  submissionSuccessText:
+    "Success! We'll reach out to walk you through the next steps shortly!",
+  submissionFailText:
+    'Failed to submit e-mail. Please contact duos-eng@broadinstitute.org.',
 };

@@ -39,7 +39,7 @@ export const resources = [
   },
   {
     id: 3,
-    title: 'DUOS overiview',
+    title: 'DUOS overview',
     href: 'https://www.youtube.com/watch?v=4SXzLFveshc',
     date: 'Jul 8, 2021',
     datetime: '2021-07-08',
